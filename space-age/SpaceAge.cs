@@ -4,7 +4,10 @@ public class SpaceAge
 {
     private int Seconds { get; }
 
-    public SpaceAge(int seconds) => Seconds = seconds;
+    public SpaceAge(int seconds)
+    {
+        Seconds = seconds;
+    }
 
     public double OnEarth() => Seconds / 31557600.0;
 
